@@ -19,23 +19,17 @@ public class StandAloneTest {
     WebDriverWait wait;
 
     @BeforeMethod
-    public void setUp(){
-        System.out.println("This is before method");
-        System.setProperty("webdriver.chrome.driver", "/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/chromedriver");
+    public void setup() throws InterruptedException {
+        System.out.println("Before method in ScenarioE2ETest class");
+        System.setProperty("webdriver.chrome.driver","/Users/bytedance/CourseQAAutomation/Web Automation/chromedriver");
         driver = new ChromeDriver();
+        driver.get("https://rahulshettyacademy.com/client");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
-
-        // Navigate to a website
-        driver.get("https://www.saucedemo.com/");
-
         wait = new WebDriverWait(driver, Duration.ofMillis(4000));
 
-        /*
-         * Kalau wait bakal berhenti kalau sudah menemukan element yang dicari
-         * Kalau thread.sleep() bakal nunggu sampe waktu habis
-         */
-
+        Thread.sleep(3000);
     }
 
     @Test
