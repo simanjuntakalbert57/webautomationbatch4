@@ -5,13 +5,15 @@ import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import com.webautomationbatch4.abstractcomponents.AbstractComponents;
 import com.webautomationbatch4.page_factory.object_repository.CartObjectRepository;
 
-public class CartPage {
+public class CartPage extends AbstractComponents {
     CartObjectRepository cartObjectRepository;
     WebDriver driver;
 
     public CartPage(WebDriver driver) {  
+        super(driver);
         this.cartObjectRepository = new CartObjectRepository(driver);
         this.driver = driver;
     }
@@ -25,9 +27,11 @@ public class CartPage {
         return cartProducts;
     }
 
-    public Boolean verifyProductInCart(String productName){
-         Boolean match = getAllProductCart().stream().anyMatch(prod -> prod.getText().equalsIgnoreCase(productName));
-         return match;
+    public Boolean verifyProductInCart(String productName) throws InterruptedException{
+        //  Thread.sleep(3000);
+        visibilityElement(cartObjectRepository.cartProduct);
+        Boolean match = getAllProductCart().stream().anyMatch(prod -> prod.getText().equalsIgnoreCase(productName));
+        return match;
     }
 
     public void goToCheckout(){

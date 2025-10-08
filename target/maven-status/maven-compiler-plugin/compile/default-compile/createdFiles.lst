@@ -1,0 +1,12 @@
+com/webautomationbatch4/page_factory/object_repository/OrderObjectRepository.class
+com/webautomationbatch4/page_factory/pages/DashboardPage.class
+com/webautomationbatch4/page_factory/object_repository/ConfirmationObjectRepository.class
+com/webautomationbatch4/Main.class
+com/webautomationbatch4/page_factory/pages/ConfirmationPage.class
+com/webautomationbatch4/abstractcomponents/AbstractComponents.class
+com/webautomationbatch4/page_factory/object_repository/CartObjectRepository.class
+com/webautomationbatch4/page_factory/object_repository/LoginObjectRepository.class
+com/webautomationbatch4/page_factory/object_repository/DashboardObjectRepository.class
+com/webautomationbatch4/page_factory/pages/OrderPage.class
+com/webautomationbatch4/page_factory/pages/CartPage.class
+com/webautomationbatch4/page_factory/pages/LoginPage.class

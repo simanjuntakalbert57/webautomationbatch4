@@ -6,14 +6,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import com.webautomationbatch4.abstractcomponents.AbstractComponents;
 import com.webautomationbatch4.page_factory.object_repository.CartObjectRepository;
 import com.webautomationbatch4.page_factory.object_repository.OrderObjectRepository;
 
-public class OrderPage {
+public class OrderPage extends AbstractComponents {
     OrderObjectRepository orderObjectRepository;
     WebDriver driver;
 
     public OrderPage(WebDriver driver) {
+        super(driver);
         this.orderObjectRepository = new OrderObjectRepository(driver);
         this.driver = driver;
     }
@@ -25,6 +27,7 @@ public class OrderPage {
     }
 
     public void fillShippingDetails(String receiver, String country){
+        visibilityElement(orderObjectRepository.elementCountry);
         orderObjectRepository.receiverElement.sendKeys(receiver);
         orderObjectRepository.selectCountryElement.sendKeys(country);
         chooseCountry(country);

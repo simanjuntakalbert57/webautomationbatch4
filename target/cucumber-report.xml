@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="31.04" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-08T14:08:51.234062Z">
+<testcase classname="Checkout Scenario" name="User can't login with invalid credentials - #1.1" time="8.92">
+<system-out><![CDATA[
+When User logged in with "simanjuntakalbert57@gmail.com" and "invalid1".....passed
+Then User should see an error message.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checkout Scenario" name="User can't login with invalid credentials - #1.2" time="4.757">
+<system-out><![CDATA[
+When User logged in with "invalid_user2" and "XBf@rWNvByn!#K8"..............passed
+Then User should see an error message.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checkout Scenario" name="User can't login with invalid credentials - #1.3" time="5.97">
+<system-out><![CDATA[
+When User logged in with "invalid_user3" and "invalid3".....................passed
+Then User should see an error message.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checkout Scenario" name="User can checkout product with some variant successfully - #1.1" time="11.28">
+<system-out><![CDATA[
+When User logged in with "simanjuntakalbert57@gmail.com" and "XBf@rWNvByn!#K8".passed
+Then User is navigated to the products page.................................passed
+When User adds a product to the cart "ZARA COAT 3"..........................passed
+And User clicks on the cart icon............................................passed
+Then User verify the product is added to the cart "ZARA COAT 3".............passed
+When User click on the checkout button......................................passed
+Then User is navigated to checkout page.....................................passed
+When User fills in the shipping details.....................................passed
+And User click on the Place Order button....................................passed
+Then User verify the order is placed successfully...........................passed
+]]></system-out>
+</testcase>
+</testsuite>

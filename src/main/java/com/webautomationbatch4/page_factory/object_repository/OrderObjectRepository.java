@@ -18,6 +18,7 @@ public class OrderObjectRepository {
     public WebElement placeOrderButton;
 
     public By countryOptions = By.cssSelector("button.ta-item");
+    public By elementCountry = By.xpath("//input[@placeholder='Select Country']");
 
 
     public OrderObjectRepository(WebDriver driver) {
