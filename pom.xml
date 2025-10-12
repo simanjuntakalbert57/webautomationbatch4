@@ -44,6 +44,12 @@
             <version>7.14.0</version> <!-- sesuaikan dengan versi Cucumber kamu -->
             <scope>test</scope>
         </dependency>
+        <!-- WebDriverManager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.9.2</version>
+        </dependency>
     </dependencies>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

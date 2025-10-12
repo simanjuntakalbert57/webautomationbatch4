@@ -12,6 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Hooks {
     private static WebDriver driver;
@@ -29,7 +30,10 @@ public class Hooks {
         String browserName = properties.getProperty("browser");
         
         if (browserName.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver","/Users/bytedance/CourseQAAutomation/Web Automation/chromedriver");
+            // Otomatis setup driver
+            WebDriverManager.chromedriver().setup();
+
+            // Jalankan Chrome
             driver = new ChromeDriver();
         }else if (browserName.equalsIgnoreCase("firefox")) {
             System.setProperty("webdriver.gecko.driver","/Users/bytedance/CourseQAAutomation/Web Automation/chromedriver");
