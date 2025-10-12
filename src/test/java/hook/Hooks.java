@@ -23,7 +23,7 @@ public class Hooks {
 
         // Get Properties
         Properties properties = new Properties();
-        FileInputStream fileInputStream = new FileInputStream("/Users/bytedance/CourseQAAutomation/batch4/webautomationbatch4/src/main/java/com/webautomationbatch4/resources/GlobalData.properties");
+        FileInputStream fileInputStream = new FileInputStream("src/main/java/com/webautomationbatch4/resources/GlobalData.properties");
         properties.load(fileInputStream);
         
         String browserName = properties.getProperty("browser");
