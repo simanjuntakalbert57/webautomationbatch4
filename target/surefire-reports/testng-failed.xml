@@ -6,17 +6,10 @@
       <class name="runner.TestRunnerOrder">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0 1 2 3 4"/>
           <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="1"/>
         </methods>
       </class> <!-- runner.TestRunnerOrder -->
-      <class name="runner.TestRunnerLogin">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0 1 2 3 4"/>
-        </methods>
-      </class> <!-- runner.TestRunnerLogin -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

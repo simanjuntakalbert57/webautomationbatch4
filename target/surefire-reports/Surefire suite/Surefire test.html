@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/10/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 13 20:05:21 WIB 2025</td>
+<td>Started on:</td><td>Mon Oct 13 20:42:11 WIB 2025</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (552 ms)</td>
+<tr><td>Total time:</td><td>77 seconds (77277 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,385 +76,110 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can't login with invalid credentials", "Checkout Scenario"</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+<td title='runner.TestRunnerOrder.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerOrder<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can checkout product with some variant successfully", "Checkout Scenario"</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-yxu-c34=&quot;&quot; class=&quot;btn w-10 rounded&quot; style=&quot;float: right;&quot;&gt;...&lt;/button&gt; is not clickable at point (537, 438). Other element would receive the click: &lt;div _ngcontent-yxu-c31=&quot;&quot; class=&quot;ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating&quot; style=&quot;background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=141.0.7390.76)
 Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1933328958", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1933328958'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dce2e9949e32530b3567a31bc7fb074c, clickElement {id=f.4975791D63F03AEBE53482FBA410A9CA.d.706AF008D27972488E0FCE0B3ABF5CF8.e.70}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.76, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: /var/folders/nw/scl8rvjs5h5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54259/devtoo..., se:cdpVersion: 141.0.7390.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on mac (dce2e9949e32530b3567a31bc7fb074c)] -&gt; css selector: .mb-3]] -&gt; css selector: .card-body button:last-of-type]
+Session ID: dce2e9949e32530b3567a31bc7fb074c
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.webautomationbatch4.page_factory.pages.DashboardPage.addToCart(DashboardPage.java:33)
+	at stepdefenitions.DashboardPageStepDef.user_adds_a_product_to_the_cart(DashboardPageStepDef.java:24)
+	at ✽.User adds a product to the cart &quot;ZARA COAT 3&quot;(file:///Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/src/test/resources/features/CheckoutScenario.feature:21)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1686921139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1686921139'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-yxu-c34=&quot;&quot; class=&quot;btn w-10 rounded&quot; style=&quot;float: right;&quot;&gt;...&lt;/button&gt; is not clickable at point (537, 438). Other element would receive the click: &lt;div _ngcontent-yxu-c31=&quot;&quot; class=&quot;ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating&quot; style=&quot;background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=141.0.7390.76)
 Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dce2e9949e32530b3567a31bc7fb074c, clickElement {id=f.4975791D63F03AEBE53482FBA410A9CA.d.706AF008D27972488E0FCE0B3ABF5CF8.e.70}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.76, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: /var/folders/nw/scl8rvjs5h5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54259/devtoo..., se:cdpVersion: 141.0.7390.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on mac (dce2e9949e32530b3567a31bc7fb074c)] -&gt; css selector: .mb-3]] -&gt; css selector: .card-body button:last-of-type]
+Session ID: dce2e9949e32530b3567a31bc7fb074c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.webautomationbatch4.page_factory.pages.DashboardPage.addToCart(DashboardPage.java:33)
+	at stepdefenitions.DashboardPageStepDef.user_adds_a_product_to_the_cart(DashboardPageStepDef.java:24)
+	at ✽.User adds a product to the cart &quot;ZARA COAT 3&quot;(file:///Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/src/test/resources/features/CheckoutScenario.feature:21)
 </pre></div></td>
-<td>0</td>
-<td>runner.TestRunnerLogin@14a2f921</td></tr>
+<td>7</td>
+<td>runner.TestRunnerOrder@1c72da34</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='runner.TestRunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can checkout product successfully", "Checkout Scenario"</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1027569178", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1027569178'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div></td>
-<td>0</td>
-<td>runner.TestRunnerLogin@14a2f921</td></tr>
+<td title='runner.TestRunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can't login with invalid credentials", "Login Scenario"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunnerLogin@453da22c</td></tr>
 <tr>
-<td title='runner.TestRunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can checkout product with some variant successfully", "Checkout Scenario"</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1593368350", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1593368350'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div></td>
-<td>0</td>
-<td>runner.TestRunnerLogin@14a2f921</td></tr>
+<td title='runner.TestRunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can't login with invalid credentials", "Login Scenario"</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunnerLogin@453da22c</td></tr>
 <tr>
-<td title='runner.TestRunnerOrder.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerOrder<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can't login with invalid credentials", "Checkout Scenario"</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1924966548", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1924966548'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div></td>
-<td>0</td>
-<td>runner.TestRunnerOrder@17c386de</td></tr>
-<tr>
-<td title='runner.TestRunnerOrder.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerOrder<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can't login with invalid credentials", "Checkout Scenario"</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace36550900", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace36550900'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div></td>
-<td>0</td>
-<td>runner.TestRunnerOrder@17c386de</td></tr>
+<td title='runner.TestRunnerOrder.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerOrder<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can't login with invalid credentials", "Login Scenario"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunnerOrder@1c72da34</td></tr>
 <tr>
 <td title='runner.TestRunnerOrder.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerOrder<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can checkout product successfully", "Checkout Scenario"</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace577245010", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace577245010'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div></td>
-<td>0</td>
-<td>runner.TestRunnerOrder@17c386de</td></tr>
+<td></td>
+<td>10</td>
+<td>runner.TestRunnerOrder@1c72da34</td></tr>
 <tr>
-<td title='runner.TestRunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can't login with invalid credentials", "Checkout Scenario"</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1441243996", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1441243996'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div></td>
-<td>0</td>
-<td>runner.TestRunnerLogin@14a2f921</td></tr>
+<td title='runner.TestRunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can't login with invalid credentials", "Login Scenario"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunnerLogin@453da22c</td></tr>
 <tr>
-<td title='runner.TestRunnerOrder.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerOrder<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can't login with invalid credentials", "Checkout Scenario"</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace670689666", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace670689666'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div></td>
-<td>0</td>
-<td>runner.TestRunnerOrder@17c386de</td></tr>
+<td title='runner.TestRunnerOrder.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerOrder<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can't login with invalid credentials", "Login Scenario"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunnerOrder@1c72da34</td></tr>
 <tr>
-<td title='runner.TestRunnerOrder.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerOrder<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can checkout product with some variant successfully", "Checkout Scenario"</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1481751887", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1481751887'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div></td>
-<td>0</td>
-<td>runner.TestRunnerOrder@17c386de</td></tr>
+<td title='runner.TestRunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can checkout product successfully", "Checkout Scenario"</td>
+<td></td>
+<td>12</td>
+<td>runner.TestRunnerLogin@453da22c</td></tr>
 <tr>
-<td title='runner.TestRunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can't login with invalid credentials", "Checkout Scenario"</td>
-<td><div><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1911978617", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1911978617'><pre>org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at hook.Hooks.setUp(Hooks.java:38)
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	... 6 more
-</pre></div></td>
-<td>0</td>
-<td>runner.TestRunnerLogin@14a2f921</td></tr>
+<td title='runner.TestRunnerLogin.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerLogin<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can checkout product with some variant successfully", "Checkout Scenario"</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunnerLogin@453da22c</td></tr>
+<tr>
+<td title='runner.TestRunnerOrder.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunnerOrder<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can't login with invalid credentials", "Login Scenario"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunnerOrder@1c72da34</td></tr>
 </table><p>
 </body>
 </html>

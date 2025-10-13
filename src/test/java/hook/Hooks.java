@@ -32,6 +32,7 @@ public class Hooks {
         if (browserName.equalsIgnoreCase("chrome")) {
             // Otomatis setup driver
             WebDriverManager.chromedriver().setup();
+            // System.setProperty("webdriver.chrome.driver","/Users/bytedance/CourseQAAutomation/Web Automation/chromedriver");
 
             // Jalankan Chrome
             driver = new ChromeDriver();

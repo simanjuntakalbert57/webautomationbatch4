@@ -1,94 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.808 s <<< FAILURE! - in TestSuite
-runScenario(runner.TestRunnerLogin)  Time elapsed: 0.098 s  <<< FAILURE!
-org.openqa.selenium.remote.NoSuchDriverException: 
-Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 77.612 s <<< FAILURE! - in TestSuite
+runScenario(runner.TestRunnerOrder)  Time elapsed: 7.591 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button _ngcontent-yxu-c34="" class="btn w-10 rounded" style="float: right;">...</button> is not clickable at point (537, 438). Other element would receive the click: <div _ngcontent-yxu-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=141.0.7390.76)
 Build info: version: '4.35.0', revision: '1c58e5028b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
-Driver info: driver.version: ChromeDriver
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-
-runScenario(runner.TestRunnerLogin)  Time elapsed: 0.007 s  <<< FAILURE!
-org.openqa.selenium.remote.NoSuchDriverException: 
-Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
-Driver info: driver.version: ChromeDriver
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-
-runScenario(runner.TestRunnerLogin)  Time elapsed: 0.009 s  <<< FAILURE!
-org.openqa.selenium.remote.NoSuchDriverException: 
-Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
-Driver info: driver.version: ChromeDriver
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-
-runScenario(runner.TestRunnerLogin)  Time elapsed: 0.006 s  <<< FAILURE!
-org.openqa.selenium.remote.NoSuchDriverException: 
-Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
-Driver info: driver.version: ChromeDriver
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-
-runScenario(runner.TestRunnerLogin)  Time elapsed: 0.014 s  <<< FAILURE!
-org.openqa.selenium.remote.NoSuchDriverException: 
-Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
-Driver info: driver.version: ChromeDriver
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-
-runScenario(runner.TestRunnerOrder)  Time elapsed: 0.009 s  <<< FAILURE!
-org.openqa.selenium.remote.NoSuchDriverException: 
-Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
-Driver info: driver.version: ChromeDriver
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-
-runScenario(runner.TestRunnerOrder)  Time elapsed: 0.006 s  <<< FAILURE!
-org.openqa.selenium.remote.NoSuchDriverException: 
-Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
-Driver info: driver.version: ChromeDriver
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-
-runScenario(runner.TestRunnerOrder)  Time elapsed: 0.005 s  <<< FAILURE!
-org.openqa.selenium.remote.NoSuchDriverException: 
-Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
-Driver info: driver.version: ChromeDriver
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-
-runScenario(runner.TestRunnerOrder)  Time elapsed: 0.004 s  <<< FAILURE!
-org.openqa.selenium.remote.NoSuchDriverException: 
-Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
-Driver info: driver.version: ChromeDriver
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-
-runScenario(runner.TestRunnerOrder)  Time elapsed: 0.006 s  <<< FAILURE!
-org.openqa.selenium.remote.NoSuchDriverException: 
-Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
-Driver info: driver.version: ChromeDriver
-Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dce2e9949e32530b3567a31bc7fb074c, clickElement {id=f.4975791D63F03AEBE53482FBA410A9CA.d.706AF008D27972488E0FCE0B3ABF5CF8.e.70}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.76, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: /var/folders/nw/scl8rvjs5h5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54259/devtoo..., se:cdpVersion: 141.0.7390.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on mac (dce2e9949e32530b3567a31bc7fb074c)] -> css selector: .mb-3]] -> css selector: .card-body button:last-of-type]
+Session ID: dce2e9949e32530b3567a31bc7fb074c
 

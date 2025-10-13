@@ -5,4 +5,9 @@
 /Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/src/test/java/hook/Hooks.java
 /Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/src/test/java/runner/TestRunnerLogin.java
 /Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/src/test/java/runner/TestRunnerOrder.java
+/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/src/test/java/stepdefenitions/CartPageStepDef.java
+/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/src/test/java/stepdefenitions/ConfirmationPageStepDef.java
+/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/src/test/java/stepdefenitions/DashboardPageStepDef.java
+/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/src/test/java/stepdefenitions/LoginPageStepDef.java
+/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/src/test/java/stepdefenitions/OrderPageStepDef.java
 /Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/src/test/java/stepdefenitions/StepImpl.java
