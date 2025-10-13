@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.808" tests="10" errors="0" skipped="0" failures="10">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/target/test-classes:/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/target/classes:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-java/4.35.0/selenium-java-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-api/4.35.0/selenium-api-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.35.0/selenium-chrome-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.35.0/selenium-chromium-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-json/4.35.0/selenium-json-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.35.0/selenium-manager-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.35.0/selenium-devtools-v137-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v138/4.35.0/selenium-devtools-v138-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v139/4.35.0/selenium-devtools-v139-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.35.0/selenium-edge-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.35.0/selenium-firefox-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-http/4.35.0/selenium-http-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.35.0/selenium-ie-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.35.0/selenium-remote-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/albertsimanjuntak/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/albertsimanjuntak/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/albertsimanjuntak/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-api/1.53.0/opentelemetry-api-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-context/1.53.0/opentelemetry-context-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-common/1.53.0/opentelemetry-common-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.53.0/opentelemetry-exporter-logging-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.53.0/opentelemetry-sdk-common-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.53.0/opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.53.0/opentelemetry-sdk-extension-autoconfigure-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.53.0/opentelemetry-sdk-trace-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.53.0/opentelemetry-sdk-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.53.0/opentelemetry-sdk-metrics-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.53.0/opentelemetry-sdk-logs-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-os/4.35.0/selenium-os-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.35.0/selenium-safari-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-support/4.35.0/selenium-support-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/albertsimanjuntak/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/albertsimanjuntak/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/albertsimanjuntak/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-testng/7.30.0/cucumber-testng-7.30.0.jar:/Users/albertsimanjuntak/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-java/7.21.1/cucumber-java-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-core/7.21.1/cucumber-core-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-gherkin/7.21.1/cucumber-gherkin-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.21.1/cucumber-gherkin-messages-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/gherkin/31.0.0/gherkin-31.0.0.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/messages/27.2.0/messages-27.2.0.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/testng-xml-formatter/0.3.1/testng-xml-formatter-0.3.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/query/13.6.0/query-13.6.0.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/tag-expressions/6.1.2/tag-expressions-6.1.2.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/datatable/7.21.1/datatable-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-plugin/7.21.1/cucumber-plugin-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/docstring/7.21.1/docstring-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/html-formatter/21.9.0/html-formatter-21.9.0.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/junit-xml-formatter/0.7.1/junit-xml-formatter-0.7.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-picocontainer/7.14.0/cucumber-picocontainer-7.14.0.jar:/Users/albertsimanjuntak/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/albertsimanjuntak/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar:/Users/albertsimanjuntak/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/albertsimanjuntak/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/albertsimanjuntak/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar:/Users/albertsimanjuntak/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar:/Users/albertsimanjuntak/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar:/Users/albertsimanjuntak/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/albertsimanjuntak/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/albertsimanjuntak/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/albertsimanjuntak/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/albertsimanjuntak/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar:/Users/albertsimanjuntak/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar:/Users/albertsimanjuntak/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/albertsimanjuntak/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/albertsimanjuntak/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar:/Users/albertsimanjuntak/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/albertsimanjuntak/.m2/repository/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar:/Users/albertsimanjuntak/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/albertsimanjuntak/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/albertsimanjuntak/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/albertsimanjuntak/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/24.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/target/surefire/surefirebooter12142434379973949017.jar /Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/target/surefire 2025-10-13T20-05-21_044-jvmRun1 surefire4303775137580567142tmp surefire_02435746878221753635tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/target/test-classes:/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/target/classes:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-java/4.35.0/selenium-java-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-api/4.35.0/selenium-api-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.35.0/selenium-chrome-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.35.0/selenium-chromium-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-json/4.35.0/selenium-json-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.35.0/selenium-manager-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.35.0/selenium-devtools-v137-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v138/4.35.0/selenium-devtools-v138-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v139/4.35.0/selenium-devtools-v139-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.35.0/selenium-edge-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.35.0/selenium-firefox-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-http/4.35.0/selenium-http-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.35.0/selenium-ie-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.35.0/selenium-remote-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/albertsimanjuntak/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/albertsimanjuntak/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/albertsimanjuntak/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-api/1.53.0/opentelemetry-api-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-context/1.53.0/opentelemetry-context-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-common/1.53.0/opentelemetry-common-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.53.0/opentelemetry-exporter-logging-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.53.0/opentelemetry-sdk-common-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.53.0/opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.53.0/opentelemetry-sdk-extension-autoconfigure-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.53.0/opentelemetry-sdk-trace-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.53.0/opentelemetry-sdk-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.53.0/opentelemetry-sdk-metrics-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.53.0/opentelemetry-sdk-logs-1.53.0.jar:/Users/albertsimanjuntak/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-os/4.35.0/selenium-os-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.35.0/selenium-safari-driver-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/seleniumhq/selenium/selenium-support/4.35.0/selenium-support-4.35.0.jar:/Users/albertsimanjuntak/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/albertsimanjuntak/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/albertsimanjuntak/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/albertsimanjuntak/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-testng/7.30.0/cucumber-testng-7.30.0.jar:/Users/albertsimanjuntak/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-java/7.21.1/cucumber-java-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-core/7.21.1/cucumber-core-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-gherkin/7.21.1/cucumber-gherkin-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.21.1/cucumber-gherkin-messages-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/gherkin/31.0.0/gherkin-31.0.0.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/messages/27.2.0/messages-27.2.0.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/testng-xml-formatter/0.3.1/testng-xml-formatter-0.3.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/query/13.6.0/query-13.6.0.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/tag-expressions/6.1.2/tag-expressions-6.1.2.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/datatable/7.21.1/datatable-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-plugin/7.21.1/cucumber-plugin-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/docstring/7.21.1/docstring-7.21.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/html-formatter/21.9.0/html-formatter-21.9.0.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/junit-xml-formatter/0.7.1/junit-xml-formatter-0.7.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/albertsimanjuntak/.m2/repository/io/cucumber/cucumber-picocontainer/7.14.0/cucumber-picocontainer-7.14.0.jar:/Users/albertsimanjuntak/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/albertsimanjuntak/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar:/Users/albertsimanjuntak/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/albertsimanjuntak/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/albertsimanjuntak/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar:/Users/albertsimanjuntak/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar:/Users/albertsimanjuntak/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar:/Users/albertsimanjuntak/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/albertsimanjuntak/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/albertsimanjuntak/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/albertsimanjuntak/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/albertsimanjuntak/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar:/Users/albertsimanjuntak/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar:/Users/albertsimanjuntak/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/albertsimanjuntak/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/albertsimanjuntak/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar:/Users/albertsimanjuntak/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/albertsimanjuntak/.m2/repository/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar:/Users/albertsimanjuntak/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/albertsimanjuntak/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/albertsimanjuntak/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/albertsimanjuntak/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/albertsimanjuntak"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/24.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4/target/surefire/surefirebooter12142434379973949017.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="24.0.2"/>
+    <property name="user.name" value="albertsimanjuntak"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/albertsimanjuntak/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/nw/scl8rvjs5h51bbxw5g2fxykm0000gn/T/"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/webautomationbatch4"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/albertsimanjuntak/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="24.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="runScenario" classname="runner.TestRunnerLogin" time="0.098">
+    <failure message="Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.NoSuchDriverException">org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+</failure>
+    <system-out><![CDATA[
+Scenario: User can checkout product successfully                      &amp#27;[90m# src/test/resources/features/CheckoutScenario.feature:6&amp#27;[0m
+Ini setup web automation
+      &amp#27;[31morg.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+      Build info: version: '4.35.0', revision: '1c58e5028b'
+      System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+      Driver info: driver.version: ChromeDriver
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+      	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+      	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+      	at hook.Hooks.setUp(Hooks.java:38)
+      Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+      	... 6 more&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser logged in with valid credentials&amp#27;[0m                          &amp#27;[90m# stepdefenitions.StepImpl.user_logged_in_with_valid_credentials()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is navigated to the products page&amp#27;[0m                         &amp#27;[90m# stepdefenitions.StepImpl.user_is_navigated_to_the_products_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser adds a product to the cart &amp#27;[0m&amp#27;[36m&amp#27;[1m"ADIDAS ORIGINAL"&amp#27;[0m              &amp#27;[90m# stepdefenitions.StepImpl.user_adds_a_product_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser clicks on the cart icon&amp#27;[0m                                    &amp#27;[90m# stepdefenitions.StepImpl.user_clicks_on_the_cart_icon()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser verify the product is added to the cart &amp#27;[0m&amp#27;[36m&amp#27;[1m"ADIDAS ORIGINAL"&amp#27;[0m &amp#27;[90m# stepdefenitions.StepImpl.user_verify_the_product_is_added_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser click on the checkout button&amp#27;[0m                              &amp#27;[90m# stepdefenitions.StepImpl.user_click_on_the_checkout_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is navigated to checkout page&amp#27;[0m                             &amp#27;[90m# stepdefenitions.StepImpl.user_is_navigated_to_checkout_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser fills in the shipping details&amp#27;[0m                             &amp#27;[90m# stepdefenitions.StepImpl.user_fills_in_the_shipping_details()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser click on the Place Order button&amp#27;[0m                            &amp#27;[90m# stepdefenitions.StepImpl.user_click_on_the_place_order_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser verify the order is placed successfully&amp#27;[0m                   &amp#27;[90m# stepdefenitions.StepImpl.user_verify_the_order_is_placed_successfully()&amp#27;[0m
+Ini setup after web automation
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunnerLogin" time="0.007">
+    <failure message="Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.NoSuchDriverException">org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: User can't login with invalid credentials               &amp#27;[90m# src/test/resources/features/CheckoutScenario.feature:24&amp#27;[0m
+Ini setup web automation
+      &amp#27;[31morg.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+      Build info: version: '4.35.0', revision: '1c58e5028b'
+      System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+      Driver info: driver.version: ChromeDriver
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+      	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+      	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+      	at hook.Hooks.setUp(Hooks.java:38)
+      Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+      	... 6 more&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser logged in with &amp#27;[0m&amp#27;[36m&amp#27;[1m"simanjuntakalbert57@gmail.com"&amp#27;[0m&amp#27;[36m and &amp#27;[0m&amp#27;[36m&amp#27;[1m"invalid1"&amp#27;[0m &amp#27;[90m# stepdefenitions.StepImpl.user_logged_in_with(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should see an error message&amp#27;[0m                                   &amp#27;[90m# stepdefenitions.StepImpl.error_message()&amp#27;[0m
+Ini setup after web automation
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunnerLogin" time="0.009">
+    <failure message="Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.NoSuchDriverException">org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: User can't login with invalid credentials      &amp#27;[90m# src/test/resources/features/CheckoutScenario.feature:25&amp#27;[0m
+Ini setup web automation
+      &amp#27;[31morg.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+      Build info: version: '4.35.0', revision: '1c58e5028b'
+      System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+      Driver info: driver.version: ChromeDriver
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+      	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+      	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+      	at hook.Hooks.setUp(Hooks.java:38)
+      Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+      	... 6 more&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser logged in with &amp#27;[0m&amp#27;[36m&amp#27;[1m"invalid_user2"&amp#27;[0m&amp#27;[36m and &amp#27;[0m&amp#27;[36m&amp#27;[1m"XBf@rWNvByn!#K8"&amp#27;[0m &amp#27;[90m# stepdefenitions.StepImpl.user_logged_in_with(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should see an error message&amp#27;[0m                          &amp#27;[90m# stepdefenitions.StepImpl.error_message()&amp#27;[0m
+Ini setup after web automation
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunnerLogin" time="0.006">
+    <failure message="Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.NoSuchDriverException">org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: User can't login with invalid credentials &amp#27;[90m# src/test/resources/features/CheckoutScenario.feature:26&amp#27;[0m
+Ini setup web automation
+      &amp#27;[31morg.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+      Build info: version: '4.35.0', revision: '1c58e5028b'
+      System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+      Driver info: driver.version: ChromeDriver
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+      	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+      	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+      	at hook.Hooks.setUp(Hooks.java:38)
+      Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+      	... 6 more&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser logged in with &amp#27;[0m&amp#27;[36m&amp#27;[1m"invalid_user3"&amp#27;[0m&amp#27;[36m and &amp#27;[0m&amp#27;[36m&amp#27;[1m"invalid3"&amp#27;[0m   &amp#27;[90m# stepdefenitions.StepImpl.user_logged_in_with(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should see an error message&amp#27;[0m                     &amp#27;[90m# stepdefenitions.StepImpl.error_message()&amp#27;[0m
+Ini setup after web automation
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunnerLogin" time="0.014">
+    <failure message="Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.NoSuchDriverException">org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: User can checkout product with some variant successfully       &amp#27;[90m# src/test/resources/features/CheckoutScenario.feature:42&amp#27;[0m
+Ini setup web automation
+      &amp#27;[31morg.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+      Build info: version: '4.35.0', revision: '1c58e5028b'
+      System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+      Driver info: driver.version: ChromeDriver
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+      	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+      	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+      	at hook.Hooks.setUp(Hooks.java:38)
+      Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+      	... 6 more&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser logged in with &amp#27;[0m&amp#27;[36m&amp#27;[1m"simanjuntakalbert57@gmail.com"&amp#27;[0m&amp#27;[36m and &amp#27;[0m&amp#27;[36m&amp#27;[1m"XBf@rWNvByn!#K8"&amp#27;[0m &amp#27;[90m# stepdefenitions.StepImpl.user_logged_in_with(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is navigated to the products page&amp#27;[0m                                    &amp#27;[90m# stepdefenitions.StepImpl.user_is_navigated_to_the_products_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser adds a product to the cart &amp#27;[0m&amp#27;[36m&amp#27;[1m"ZARA COAT 3"&amp#27;[0m                             &amp#27;[90m# stepdefenitions.StepImpl.user_adds_a_product_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser clicks on the cart icon&amp#27;[0m                                               &amp#27;[90m# stepdefenitions.StepImpl.user_clicks_on_the_cart_icon()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser verify the product is added to the cart &amp#27;[0m&amp#27;[36m&amp#27;[1m"ZARA COAT 3"&amp#27;[0m                &amp#27;[90m# stepdefenitions.StepImpl.user_verify_the_product_is_added_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser click on the checkout button&amp#27;[0m                                         &amp#27;[90m# stepdefenitions.StepImpl.user_click_on_the_checkout_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is navigated to checkout page&amp#27;[0m                                        &amp#27;[90m# stepdefenitions.StepImpl.user_is_navigated_to_checkout_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser fills in the shipping details&amp#27;[0m                                        &amp#27;[90m# stepdefenitions.StepImpl.user_fills_in_the_shipping_details()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser click on the Place Order button&amp#27;[0m                                       &amp#27;[90m# stepdefenitions.StepImpl.user_click_on_the_place_order_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser verify the order is placed successfully&amp#27;[0m                              &amp#27;[90m# stepdefenitions.StepImpl.user_verify_the_order_is_placed_successfully()&amp#27;[0m
+Ini setup after web automation
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunnerOrder" time="0.009">
+    <failure message="Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.NoSuchDriverException">org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+</failure>
+    <system-out><![CDATA[
+Scenario: User can checkout product successfully                      &amp#27;[90m# src/test/resources/features/CheckoutScenario.feature:6&amp#27;[0m
+Ini setup web automation
+      &amp#27;[31morg.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+      Build info: version: '4.35.0', revision: '1c58e5028b'
+      System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+      Driver info: driver.version: ChromeDriver
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+      	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+      	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+      	at hook.Hooks.setUp(Hooks.java:38)
+      Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+      	... 6 more&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser logged in with valid credentials&amp#27;[0m                          &amp#27;[90m# stepdefenitions.StepImpl.user_logged_in_with_valid_credentials()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is navigated to the products page&amp#27;[0m                         &amp#27;[90m# stepdefenitions.StepImpl.user_is_navigated_to_the_products_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser adds a product to the cart &amp#27;[0m&amp#27;[36m&amp#27;[1m"ADIDAS ORIGINAL"&amp#27;[0m              &amp#27;[90m# stepdefenitions.StepImpl.user_adds_a_product_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser clicks on the cart icon&amp#27;[0m                                    &amp#27;[90m# stepdefenitions.StepImpl.user_clicks_on_the_cart_icon()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser verify the product is added to the cart &amp#27;[0m&amp#27;[36m&amp#27;[1m"ADIDAS ORIGINAL"&amp#27;[0m &amp#27;[90m# stepdefenitions.StepImpl.user_verify_the_product_is_added_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser click on the checkout button&amp#27;[0m                              &amp#27;[90m# stepdefenitions.StepImpl.user_click_on_the_checkout_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is navigated to checkout page&amp#27;[0m                             &amp#27;[90m# stepdefenitions.StepImpl.user_is_navigated_to_checkout_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser fills in the shipping details&amp#27;[0m                             &amp#27;[90m# stepdefenitions.StepImpl.user_fills_in_the_shipping_details()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser click on the Place Order button&amp#27;[0m                            &amp#27;[90m# stepdefenitions.StepImpl.user_click_on_the_place_order_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser verify the order is placed successfully&amp#27;[0m                   &amp#27;[90m# stepdefenitions.StepImpl.user_verify_the_order_is_placed_successfully()&amp#27;[0m
+Ini setup after web automation
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunnerOrder" time="0.006">
+    <failure message="Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.NoSuchDriverException">org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: User can't login with invalid credentials               &amp#27;[90m# src/test/resources/features/CheckoutScenario.feature:24&amp#27;[0m
+Ini setup web automation
+      &amp#27;[31morg.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+      Build info: version: '4.35.0', revision: '1c58e5028b'
+      System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+      Driver info: driver.version: ChromeDriver
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+      	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+      	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+      	at hook.Hooks.setUp(Hooks.java:38)
+      Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+      	... 6 more&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser logged in with &amp#27;[0m&amp#27;[36m&amp#27;[1m"simanjuntakalbert57@gmail.com"&amp#27;[0m&amp#27;[36m and &amp#27;[0m&amp#27;[36m&amp#27;[1m"invalid1"&amp#27;[0m &amp#27;[90m# stepdefenitions.StepImpl.user_logged_in_with(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should see an error message&amp#27;[0m                                   &amp#27;[90m# stepdefenitions.StepImpl.error_message()&amp#27;[0m
+Ini setup after web automation
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunnerOrder" time="0.005">
+    <failure message="Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.NoSuchDriverException">org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: User can't login with invalid credentials      &amp#27;[90m# src/test/resources/features/CheckoutScenario.feature:25&amp#27;[0m
+Ini setup web automation
+      &amp#27;[31morg.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+      Build info: version: '4.35.0', revision: '1c58e5028b'
+      System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+      Driver info: driver.version: ChromeDriver
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+      	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+      	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+      	at hook.Hooks.setUp(Hooks.java:38)
+      Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+      	... 6 more&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser logged in with &amp#27;[0m&amp#27;[36m&amp#27;[1m"invalid_user2"&amp#27;[0m&amp#27;[36m and &amp#27;[0m&amp#27;[36m&amp#27;[1m"XBf@rWNvByn!#K8"&amp#27;[0m &amp#27;[90m# stepdefenitions.StepImpl.user_logged_in_with(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should see an error message&amp#27;[0m                          &amp#27;[90m# stepdefenitions.StepImpl.error_message()&amp#27;[0m
+Ini setup after web automation
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunnerOrder" time="0.004">
+    <failure message="Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.NoSuchDriverException">org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: User can't login with invalid credentials &amp#27;[90m# src/test/resources/features/CheckoutScenario.feature:26&amp#27;[0m
+Ini setup web automation
+      &amp#27;[31morg.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+      Build info: version: '4.35.0', revision: '1c58e5028b'
+      System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+      Driver info: driver.version: ChromeDriver
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+      	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+      	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+      	at hook.Hooks.setUp(Hooks.java:38)
+      Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+      	... 6 more&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser logged in with &amp#27;[0m&amp#27;[36m&amp#27;[1m"invalid_user3"&amp#27;[0m&amp#27;[36m and &amp#27;[0m&amp#27;[36m&amp#27;[1m"invalid3"&amp#27;[0m   &amp#27;[90m# stepdefenitions.StepImpl.user_logged_in_with(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser should see an error message&amp#27;[0m                     &amp#27;[90m# stepdefenitions.StepImpl.error_message()&amp#27;[0m
+Ini setup after web automation
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunnerOrder" time="0.006">
+    <failure message="Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.6&apos;, java.version: &apos;24.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.NoSuchDriverException">org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+</failure>
+    <system-out><![CDATA[
+Scenario Outline: User can checkout product with some variant successfully       &amp#27;[90m# src/test/resources/features/CheckoutScenario.feature:42&amp#27;[0m
+Ini setup web automation
+      &amp#27;[31morg.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+      Build info: version: '4.35.0', revision: '1c58e5028b'
+      System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'
+      Driver info: driver.version: ChromeDriver
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
+      	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+      	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+      	at hook.Hooks.setUp(Hooks.java:38)
+      Caused by: java.lang.IllegalStateException: chromedriver must exist: /Users/bytedance/CourseQAAutomation/Web Automation/chromedriver
+      	at org.openqa.selenium.internal.Require$PathStateChecker.isExecutable(Require.java:370)
+      	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+      	... 6 more&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser logged in with &amp#27;[0m&amp#27;[36m&amp#27;[1m"simanjuntakalbert57@gmail.com"&amp#27;[0m&amp#27;[36m and &amp#27;[0m&amp#27;[36m&amp#27;[1m"XBf@rWNvByn!#K8"&amp#27;[0m &amp#27;[90m# stepdefenitions.StepImpl.user_logged_in_with(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is navigated to the products page&amp#27;[0m                                    &amp#27;[90m# stepdefenitions.StepImpl.user_is_navigated_to_the_products_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser adds a product to the cart &amp#27;[0m&amp#27;[36m&amp#27;[1m"ZARA COAT 3"&amp#27;[0m                             &amp#27;[90m# stepdefenitions.StepImpl.user_adds_a_product_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser clicks on the cart icon&amp#27;[0m                                               &amp#27;[90m# stepdefenitions.StepImpl.user_clicks_on_the_cart_icon()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser verify the product is added to the cart &amp#27;[0m&amp#27;[36m&amp#27;[1m"ZARA COAT 3"&amp#27;[0m                &amp#27;[90m# stepdefenitions.StepImpl.user_verify_the_product_is_added_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser click on the checkout button&amp#27;[0m                                         &amp#27;[90m# stepdefenitions.StepImpl.user_click_on_the_checkout_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is navigated to checkout page&amp#27;[0m                                        &amp#27;[90m# stepdefenitions.StepImpl.user_is_navigated_to_checkout_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser fills in the shipping details&amp#27;[0m                                        &amp#27;[90m# stepdefenitions.StepImpl.user_fills_in_the_shipping_details()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser click on the Place Order button&amp#27;[0m                                       &amp#27;[90m# stepdefenitions.StepImpl.user_click_on_the_place_order_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser verify the order is placed successfully&amp#27;[0m                              &amp#27;[90m# stepdefenitions.StepImpl.user_verify_the_order_is_placed_successfully()&amp#27;[0m
+Ini setup after web automation
+]]></system-out>
+  </testcase>
+</testsuite>
