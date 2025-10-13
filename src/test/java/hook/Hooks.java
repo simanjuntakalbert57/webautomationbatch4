@@ -31,8 +31,7 @@ public class Hooks {
         
         if (browserName.equalsIgnoreCase("chrome")) {
             // Otomatis setup driver
-            // WebDriverManager.chromedriver().setup();
-            System.setProperty("webdriver.chrome.driver","/Users/albertsimanjuntak/AfterOffice/WebAutomationBatch4/chromedriver");
+            WebDriverManager.chromedriver().setup();
 
             // Jalankan Chrome
             driver = new ChromeDriver();
